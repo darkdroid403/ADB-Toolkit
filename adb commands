@@ -23,6 +23,8 @@ adb shell input keyevent 278
 adb shell input keyevent 279
 
 
+8. Open GMail
 
+adb shell input keyevent 65
 
 
