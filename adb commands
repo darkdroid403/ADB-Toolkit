@@ -1,0 +1,28 @@
+1. Open: Settings 
+
+adb shell monkey -p com.android.settings -c android.intent.category.LAUNCHER 1
+
+2. Open: Open with menu
+
+
+3. Open: Camera
+
+adb shell input keyevent 27
+
+4. Open: Notifications
+
+adb shell input keyevent 83
+
+5. Cut
+adb shell input keyevent 277
+
+6. Copy
+adb shell input keyevent 278
+
+7. Paste
+adb shell input keyevent 279
+
+
+
+
+
